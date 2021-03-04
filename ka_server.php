@@ -12,18 +12,19 @@ while(true){
 		$$dayup = false; //当日上班打卡状态
 		$$daydown = false; //当日下班打卡状态
 	}
-	if($h < 9 && $h >8){ //上班打卡时间段
+	if($h < 9 && $h >=8){ //上班打卡时间段
 		if(!$$dayup){
 			$$dayup = true;
-			sleep(1);
+			sleep(rand(10,180));
 			shell_exec('./ding.sh'); //执行打卡shell
 			echo $day.date('Y-m-d H:i:s').'上班打卡 ./ding.sh';
-			
 		}
 	}
-	if($h >18 && $i > 1 &&   $h <19  ){ //下班打卡时间段
+
+	if($h >=18 && $i > 1 &&   $h <19  ){ //下班打卡时间段
 		if(!$$daydown){
 			$$daydown = true;
+			sleep(rand(10,180));
 			shell_exec('./ding.sh'); //执行打卡shell
 			echo $day.date('Y-m-d H:i:s').'下班打卡 ./ding.sh';
 		}
