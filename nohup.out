@@ -1,0 +1,8 @@
+2021-03-04 17:41:11.952 scrcpy[36186:3931885] INFO: scrcpy 1.16 <https://github.com/Genymobile/scrcpy>
+adb: error: more than one device/emulator
+2021-03-04 17:41:12.158 scrcpy[36186:3931885] ERROR: "adb reverse" returned with value 1
+2021-03-04 17:41:12.159 scrcpy[36186:3931885] WARN: 'adb reverse' failed, fallback to 'adb forward'
+2021-03-04 17:41:12.834 scrcpy[36186:3931885] INFO: Renderer: metal
+2021-03-04 17:41:12.838 scrcpy[36186:3931885] INFO: Initial texture: 1080x2160
+./ding.sh: line 23: ‡: command not found
+./ding.sh: line 25: 8: command not found

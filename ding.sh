@@ -18,7 +18,7 @@ sleep 2
 adb shell input tap 534 1978 #点击X ,Y 轴坐标 点击杀掉所有运行app
 sleep 3
 adb shell input tap 561 2118 #点击X ,Y 轴坐标 点击虚拟home键 返回手机主页
-sleep 8
+sleep 3
 adb shell input tap 404 1800 #点击X ,Y 轴坐标 点击DingDing APP图标
 sleep 8
 adb shell input tap 504 1994 #点击X ,Y 轴坐标 点击钉钉中间tabbar 
